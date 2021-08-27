@@ -7,6 +7,7 @@ const PizzaBlock = ({ id, name, imageUrl, price, types, sizes, onClickAddPizza, 
 
     const availableTypes = ['тонкое', 'традиционное']
     const availableSizes = [26, 30, 40]
+
     const [activeType, setActiveType] = React.useState(types[0])
     const [activeSize, setActiveSize] = React.useState(0)
 
