@@ -306,6 +306,29 @@ body {
       }
     }
 
+    &__item {
+      &-img {
+        margin-right: 70px;
+      }
+
+      &-info {
+        h3 {
+          font-size: 18px;
+          line-height: 18px;
+        }
+
+        p {
+          font-size: 14px;
+        }
+      }
+
+      &-count {
+        width: 40%;
+
+
+      }
+    }
+
   }
 
   &--empty {
