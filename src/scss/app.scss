@@ -355,7 +355,7 @@ body {
     }
 
     &__bottom-details {
-      justify-content: space-between;
+      flex-wrap: wrap;
 
       span {
         font-size: 20px;
