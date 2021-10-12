@@ -307,11 +307,15 @@ body {
     }
 
     &__item {
+      flex-wrap: wrap;
+
       &-img {
         margin-right: 70px;
       }
 
       &-info {
+        width: 60%;
+
         h3 {
           font-size: 18px;
           line-height: 18px;
@@ -324,8 +328,14 @@ body {
 
       &-count {
         width: 40%;
+      }
 
+      &-price {
+        width: 50%;
+      }
 
+      &-remove {
+        width: 10%;
       }
     }
 
