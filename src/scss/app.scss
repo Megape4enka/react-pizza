@@ -337,20 +337,15 @@ body {
         }
       }
 
-       img {
-         width: 200px;
-       }
-      .button--black {
-        width: 195px;
+      &--empty {
+        img {
+          width: 200px;
+        }
+
+        .button--black {
+          width: 195px;
+        }
       }
     }
   }
-}
-
-@media (max-width: 767px) {
-
-}
-
-@media (min-width: 768px) {
-
 }
