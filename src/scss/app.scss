@@ -320,5 +320,17 @@ body {
       font-weight: 600;
       font-size: 18px;
     }
+
+    @media (max-width: 767px) {
+      h2 {
+        font-size: 24px;
+      }
+      p {
+        font-size: 16px;
+      }
+      img {
+        width: 200px;
+      }
+    }
   }
 }
