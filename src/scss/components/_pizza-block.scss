@@ -69,4 +69,14 @@
     line-height: 27px;
     letter-spacing: 0.015em;
   }
+
+  @media (max-width: 620px) {
+    &__image {
+      width: 220px;
+    }
+
+    &__price {
+      font-size: 20px;
+    }
+  }
 }
