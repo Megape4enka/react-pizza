@@ -9,6 +9,18 @@ body {
   padding: 40px 0;
 }
 
+button,
+button:active,
+button:focus,
+a,
+a:active,
+a:focus,
+li,
+li:active,
+li:focus {
+  -webkit-tap-highlight-color: transparent;
+}
+
 .wrapper {
   width: calc(100vw - 100px);
   height: 100%;
