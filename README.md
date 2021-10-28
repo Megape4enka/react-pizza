@@ -1,3 +1,3 @@
-Study project
-Init project - yarn
-Start project - yarn start
+ 1. Study project
+ 2. Init project - yarn
+ 3. Start project - yarn start
